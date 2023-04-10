@@ -35,7 +35,6 @@ def buyLotsOfFruit(orderList):
     Returns cost of order
     """
     totalCost = 0.0
-    "*** YOUR CODE HERE ***"
     for order in orderList:
         fruit, numPound = order
         if fruit in fruitPrices:
